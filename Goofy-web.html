@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            max-width: 600px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gallery">
+        <img src="https://i.kym-cdn.com/photos/images/newsfeed/003/015/919/447.png" alt="Imagen 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXEZlgnLVDx8-aGx1OWKZWlFd0WNRbYg2oPAfK7k6zFR1MMbLsh63D1c9f_XtF4MZaHcA&usqp=CAU.jpg" alt="Imagen 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADsz63lTJk-TB5Djq8wabHn2f8pSYhYaYdCU6Yh9AGTi3ddfAqbrLCqB59kxi3nMH6cQ&usqp=CAU.jpg" alt="Imagen 3">
+        <img src="https://i.redd.it/8hdqbpyeskhe1.jpeg" alt="Imagen 4">
+    </div>
+
+</body>
+</html>
